@@ -1,0 +1,91 @@
+
+.react-grid-item.hidden {
+  display: none;
+}
+
+.react-grid-item {
+  background-size: 500% 500%;
+  border: 1px dotted rgba(0,0,0,0.3);
+}
+
+.grid-1 {
+  background-position: 0 0;
+}
+
+.grid-2 {
+  background-position: 25% 0;
+}
+
+.grid-3 {
+  background-position: 50% 0;
+}
+
+.grid-4 {
+  background-position: 75% 0;
+}
+
+.grid-5 {
+  background-position: 0 25%;
+}
+
+.grid-6 {
+  background-position: 25% 25%;
+}
+
+.grid-7 {
+  background-position: 50% 25%;
+}
+
+.grid-8 {
+  background-position: 75% 25%;
+}
+
+.grid-9 {
+  background-position: 0 50%;
+}
+
+.grid-10 {
+  background-position: 25% 50%;
+}
+
+.grid-11 {
+  background-position: 50% 50%;
+}
+
+.grid-12 {
+  background-position: 75% 50%;
+}
+
+.grid-13 {
+  background-position: 0 75%;
+}
+
+.grid-14 {
+  background-position: 25% 75%;
+}
+
+.grid-15 {
+  background-position: 50% 75%;
+}
+
+.grid-16 {
+  background-position: 75% 75%;
+}
+
+.react-grid-item span {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  opacity: .6;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  z-index: 10;
+  top: 5px;
+  right: 5px;
+  user-select: none;
+}

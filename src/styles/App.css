@@ -1,0 +1,9 @@
+/* Base Application Styles */
+body {
+  font: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.layout {
+  margin: 50px auto 0 auto;
+  width: 800px;
+}
